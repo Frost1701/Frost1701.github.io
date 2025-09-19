@@ -1,0 +1,48 @@
+/* CSS Style Guide */
+
+
+/* Text */
+
+h1.title {
+font-family: argent-pixel-cf, sans-serif;
+font-size: normal;
+font-weight: 400;
+color: rgb(96, 153, 102);
+}
+
+p.body { 
+    font-family: degular-mono, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: rgb(63, 81, 59);
+}
+
+
+/* Color Swatches */
+
+div.swatch {
+width: 50px;
+height: 50px;
+margin: 20px;
+border: solid 2px black;
+}
+
+div.bg-green1 {
+    background-color: rgb(157, 192, 0138);
+}
+
+div.bg-green2 {
+    background-color: rgb(96, 153, 102);
+}
+
+div.bg-green3 {
+    background-color: rgb(63, 81, 59);
+}
+
+div.bg-green4 {
+    background-color: rgb(76, 97, 92);
+}
+
+div.bg-gold {
+    background-color: rgb(226, 177, 60);
+}
