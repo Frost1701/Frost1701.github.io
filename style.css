@@ -20,6 +20,7 @@ font-style: italic;
 color: rgb(96, 153, 102);
 }
 
+h3.title {}
 @font-face {
     font-family: 'wax' ;
     src: url();
@@ -127,23 +128,33 @@ div.box1 {
     flex-direction: column;
 }
 
+/* By default items will try to fit on one line - use flexwrap instead */
 div.flex {
-    display: flex
-}
-
-div.flexcenter {
-    justify-content: center;
+    display: flex;
 }
 
 div.inflex {
     display: inline-flex;
 }
 
+div.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.flexcenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
 div.border1 {
     border: solid 0.1px black;
 }
 
-div.borderthick {
+div.borderpixel {
     border-left: solid 4px rgb(174, 177, 157);
     border-top: solid 4px rgb(174, 177, 157);
 
