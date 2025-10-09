@@ -1,6 +1,8 @@
 /* CSS Style Guide */
 
-
+body {
+    background-color: rgb(237, 241, 214);
+}
 
 /* Text */
 
@@ -20,12 +22,21 @@ font-style: italic;
 color: rgb(96, 153, 102);
 }
 
-h3.title {}
-@font-face {
-    font-family: 'wax' ;
-    src: url();
+h3.title {
+font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-size: 40px;
+font-style: italic;
+color: rgb(0, 0, 0);
 }
 
+/* full stop animation */
+h4.title {
+font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-size: 40px;
+font-style: italic;
+}
 
 p.body { 
 font-family: "degular-mono", sans-serif;
@@ -123,9 +134,18 @@ div.width66 {
         width: 20%; 
     }
 
-/* Container */
+/* CONTAINERS */
 div.box1 {
     flex-direction: column;
+}
+
+div.loading {
+    margin-left: 1%;
+    margin-top: -32px;
+}
+
+div.fullstop {
+    padding: 2px;
 }
 
 /* By default items will try to fit on one line - use flexwrap instead */
@@ -188,4 +208,44 @@ div.marginleftauto {
     margin-left: auto;
 }
 
+/* Images */
+div.image1 {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+
+
+
+
+/* ANIMATION */
+@keyframes myAnimationTest {
+    from {background-color: black;}
+    to {background-color: white;}
+}
+
+div.animationtest {
+    animation-name: myAnimationTest;
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes myAnimationLoad {
+    0% {text-color: black;}
+    50% {color: rgb(237, 241, 214)}
+    100% {text-color: black;}
+}
+
+div.animationload {
+    animation-name: myAnimationLoad;
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
