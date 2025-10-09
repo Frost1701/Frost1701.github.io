@@ -54,3 +54,30 @@ div.box {
 div.active {
     background-color: rgb(17, 121, 45);
 }
+
+
+/* Chat bubbles test*/
+div.chatbubbletest {
+    border-radius: 100px;
+    width: 600px;
+    padding: 40px;
+    margin-left: auto;
+    margin: 80px;
+}
+
+div.marginauto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.marginleftauto {
+    margin-left: auto;
+}
+
+/* Chat Bubbles 2 */
+div.bubble {
+    width: 30%;
+    border-radius: 32px;
+}
+
+
