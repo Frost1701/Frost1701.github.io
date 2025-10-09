@@ -9,16 +9,17 @@ body {
 h1.title {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
-font-size: 80px;
+font-size: 1600%;
 font-style: normal;
-color: rgb(96, 153, 102);
+color: rgb(237, 241, 214);
+text-align: center;
 }
 
 h2.title {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
-font-size: 40px;
-font-style: italic;
+font-size: 80px;
+font-style: normal;
 color: rgb(96, 153, 102);
 }
 
@@ -27,10 +28,10 @@ font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
 font-size: 40px;
 font-style: italic;
-color: rgb(0, 0, 0);
+color: rgb(96, 153, 102);
 }
 
-/* full stop animation */
+/* full stop animation ???*/
 h4.title {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
@@ -141,7 +142,7 @@ div.box1 {
 
 div.loading {
     margin-left: 1%;
-    margin-top: -32px;
+    margin-top: -48px;
 }
 
 div.fullstop {
@@ -167,8 +168,6 @@ div.flexcenter {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 
 div.border1 {
     border: solid 0.1px black;
@@ -209,6 +208,28 @@ div.marginleftauto {
 }
 
 /* Images */
+div.herobg {
+    background-image: url("HeroTest.jpg");
+    padding-top: 8vw;
+    padding
+}
+
+div.bottomtext {
+    bottom: 0px;
+}
+
+/* How to do full bleed? */
+div.fullbleed {
+    max-width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+
 div.image1 {
     width: 300px;
     height: 300px;
