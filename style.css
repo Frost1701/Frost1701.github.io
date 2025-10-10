@@ -315,12 +315,12 @@ color: rgb(63, 81, 59);
 /* horizontal vertical blur spread */
 div.bubbleshadow1 {
     box-shadow: 8px 8px 4px 4px;
-    color: rgb(174, 177, 157);
+    color: rgb(215, 219, 192);
 }
 
 div.bubbleshadow2 {
     box-shadow: -8px 8px 4px 4px;
-    color: rgb(174, 177, 157);
+    color: rgb(215, 219, 192);
 }
 
 div.marginauto {
@@ -331,3 +331,37 @@ div.marginauto {
 div.marginleftauto {
     margin-left: auto;
 }
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lime;
+  }
+    
+    div.chatbubble {
+        width: 60%;
+        border-radius: 16px;
+        background-color: red;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        margin: 40px;
+    }
+    
+    div.bubbleshadow1 {
+        box-shadow: 4px 4px 2px 2px;
+        color: rgb(215, 219, 192);
+    }
+
+    div.bubbleshadow2 {
+        box-shadow: -4px 4px 2px 2px;
+        color: rgb(215, 219, 192);
+    }
+    p.body { 
+    font-size: 12px;   
+    }
+}
+
+
+
