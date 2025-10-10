@@ -334,14 +334,10 @@ div.marginleftauto {
 
 
 @media screen and (max-width: 600px) {
-  body {
-    background-color: lime;
-  }
-    
+
     div.chatbubble {
         width: 60%;
         border-radius: 16px;
-        background-color: red;
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 6px;
