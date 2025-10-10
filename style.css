@@ -228,24 +228,27 @@ div.animationload {
 
 
 /* Hero Image */
-div.herobg {
-    background-image: url("HeroTest.jpg");
-    padding-top: 8vw;
-    position: relative;
+div.titlea {
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-size: 1600%;
+    font-style: normal;
+    color: rgb(237, 241, 214);
+    text-align: center;
+    padding: 20px;
+    margin-top: 44vh;
 }
 
-
-/* How to do full bleed? */
 div.fullbleed {
-    max-width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    display: flex;
+    align-items: bottom;
+    width: 100%;
+    height: 80vh;
+    background-image: url("HeroTest.jpg");
+    background-position: top;
+    
 }
-
-
+/* background position is crop - center center */
 
 /* NavBar */
 div.bar {
