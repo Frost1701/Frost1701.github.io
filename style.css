@@ -218,11 +218,13 @@ div.animationload {
 }
 
 div.loading {
-    margin-left: 1%;
-    margin-top: -48px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
 }
 
-h4.title {
+div.titleload {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
 font-size: 40px;
@@ -230,31 +232,35 @@ font-style: italic;
 }
 
 
-
 /* Hero Image */
 div.title1 {
     font-family: "argent-pixel-cf", sans-serif;
     font-weight: 400;
     font-size: 200px;
+    line-height: 200px;
     font-style: normal;
     color: rgb(237, 241, 214);
     text-align: center;
-    padding: 20px;
-    margin-top: 140px;
-    margin-bottom: 0px;
 }
 
 div.fullbleed {
     display: flex;
     flex-wrap: wrap;
-    align-items: bottom;
+    align-items: flex-end;
     width: 100%;
     height: 98vh;
     background-image: url("HeroTest.jpg");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
+
+    position: relative;
 }
+
+div.flexend {
+    align-items: flex end;
+}
+
 /* background position is crop - center center */
 
 /* intro text */
