@@ -35,7 +35,11 @@ font-style: italic;
 color: rgb(96, 153, 102);
 }
 
-
+div.body {
+    font-family: "degular-mono", sans-serif;
+    font-style: normal;
+    color: rgb(96, 153, 102);
+}
 
 /* Color Swatch Box */
 div.swatch {
@@ -231,12 +235,13 @@ font-style: italic;
 div.title1 {
     font-family: "argent-pixel-cf", sans-serif;
     font-weight: 400;
-    font-size: 1600%;
+    font-size: 200px;
     font-style: normal;
     color: rgb(237, 241, 214);
     text-align: center;
     padding: 20px;
-    margin-top: 47.5vh;
+    margin-top: 140px;
+    margin-bottom: 0px;
 }
 
 div.fullbleed {
@@ -247,6 +252,8 @@ div.fullbleed {
     height: 98vh;
     background-image: url("HeroTest.jpg");
     background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* background position is crop - center center */
 
@@ -258,12 +265,21 @@ div.intro {
     font-style: italic;
     font-variant: small-caps;
     color: rgb(76, 97, 92);
-    margin: 32px;
-    padding: 16px;
+    margin-top: 32px;
+    margin-bottom: 24px;
     text-align: center;
-
 }
 
+div.introbody {
+    font-family: "degular-mono", sans-serif;
+    font-style: normal;
+    color: rgb(96, 153, 102);
+    margin-left: 320px;
+    margin-right: 320px;
+    padding: 24px;
+    text-align: center;
+    text-align: justify;
+}
 
 /* NavBar */
 div.bar {
@@ -333,6 +349,39 @@ div.marginleftauto {
 }
 
 
+div.box {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+}
+
+div.background2 {
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(63, 81, 59);
+
+}
+
+div.background3 {
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(96, 153, 102);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1179px) {
     body {
         background-color: lime;
@@ -362,6 +411,7 @@ div.marginleftauto {
     font-size: 12px;   
     }
 }
+
 
 
 
