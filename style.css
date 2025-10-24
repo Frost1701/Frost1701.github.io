@@ -426,10 +426,9 @@ div.background2 {
 
 
 
-/* Phone screen resize */
-/* @media screen and (max-width: 1179px) {
+@media screen and (max-width: 1179px) {
     body {
-        background-color: lime;
+        
     }
 
 
@@ -452,15 +451,5 @@ div.background2 {
         box-shadow: -4px 4px 2px 2px;
         color: rgb(215, 219, 192);
     }
-    p.body { 
-    font-size: 12px;   
-    }
+    
 }
-    */
-
-
-
-
-
-
-
