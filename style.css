@@ -1,5 +1,5 @@
 /* CSS Style Guide */
-
+/* base reset document to 0!!! */
 body {
     background-color: rgb(237, 241, 214);
     padding: 0;
@@ -8,8 +8,8 @@ body {
 
 
 
-/* Text */
-
+/* Not using - use div's instead*/
+/* Do not Use */
 h1.title {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
@@ -18,7 +18,6 @@ font-style: normal;
 color: rgb(237, 241, 214);
 text-align: center;
 }
-
 h2.title {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
@@ -26,7 +25,6 @@ font-size: 40px;
 font-style: normal;
 color: rgb(96, 153, 102);
 }
-
 h3.title {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
@@ -35,13 +33,18 @@ font-style: italic;
 color: rgb(96, 153, 102);
 }
 
+
+
+/* Text */
 div.body {
     font-family: "degular-mono", sans-serif;
     font-style: normal;
     color: rgb(96, 153, 102);
 }
 
-/* Color Swatch Box */
+
+
+/* Color Swatch Box for styleguide*/
 div.swatch {
 width: 100px;
 height: 100px;
@@ -127,7 +130,7 @@ div.bg-shadow {background-color: rgb(174, 177, 157);}
 
 
 
-/* CONTAINERS & FLEXBOXES*/
+/* CONTAINERS & FLEXBOXES - made for styleguide*/
 div.box1 {
     flex-direction: column;
 }
@@ -185,6 +188,11 @@ div.bordernav {
     margin: 4px;
 }
 
+
+
+
+
+/* SECTION 1 */
 /* ANIMATION */
     /*  
         @keyframes myAnimationTest {
@@ -231,7 +239,6 @@ font-size: 40px;
 font-style: italic;
 }
 
-
 /* Hero Image */
 div.title1 {
     font-family: "argent-pixel-cf", sans-serif;
@@ -260,21 +267,13 @@ div.fullbleed {
 div.flexend {
     align-items: flex end;
 }
-
 /* background position is crop - center center */
 
+
+
+
+/* SECTION 2 */
 /* intro text */
-div.intro {
-    font-family: "argent-pixel-cf", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    font-style: italic;
-    font-variant: small-caps;
-    color: rgb(76, 97, 92);
-    margin-top: 32px;
-    margin-bottom: 24px;
-    text-align: center;
-}
 
 div.introbody {
     font-family: "degular-mono", sans-serif;
@@ -284,31 +283,82 @@ div.introbody {
     margin-right: 320px;
     padding: 24px;
     text-align: center;
-    text-align: justify;
+
 }
 
-/* NavBar */
+/* NavBar (not using anymore) */
 div.bar {
     width: 100%;
     height: 64px;
 }
-
-
 div.sticky {
     position: sticky;
     top: 0;
 }
 
+/* SECTION 3 */
+div.screen {
+    width: 100%;
+    height: 100vh;
+}
+
+div.centercontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.screengreen {
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(96, 153, 102);
+}
+
+
+/* SECTION 4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 6 */
+div.intro {
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: italic;
+    font-variant: small-caps;
+    color: rgb(76, 97, 92);
+
+    text-align: center;
+    width: 600px;
+    line-height: 40x;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
 
 /* ChatBubbles */
-
 div.image1 {
     width: 350;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -80px;
-    margin-top: -40px;
+    margin-top: -80px;
 }
 
 div.chatbubble {
