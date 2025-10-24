@@ -208,15 +208,15 @@ div.animationload {
 
 div.loading {
     position: absolute;
-    top: 32px;
-    left: 32px;
+    top: 16px;
+    left: 16px;
 
 }
 
 div.titleload {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
-font-size: 8vh;
+font-size: 4vw;
 font-style: italic;
 }
 
@@ -224,7 +224,7 @@ font-style: italic;
 div.title1 {
     font-family: "argent-pixel-cf", sans-serif;
     font-weight: 400;
-    font-size: 32vh;
+    font-size: 20vw;
     line-height: 200px;
     font-style: normal;
     color: rgb(237, 241, 214);
@@ -426,11 +426,14 @@ div.background2 {
 
 
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 600px) {
     body {
         
     }
 
+    div.fullbleed {
+        height: 80vh;
+    }
 
     div.chatbubble {
         width: 60%;
