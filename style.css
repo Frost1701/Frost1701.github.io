@@ -208,15 +208,15 @@ div.animationload {
 
 div.loading {
     position: absolute;
-    top: 16px;
-    left: 16px;
+    top: 32px;
+    left: 32px;
 
 }
 
 div.titleload {
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 400;
-font-size: 10vh;
+font-size: 8vh;
 font-style: italic;
 }
 
