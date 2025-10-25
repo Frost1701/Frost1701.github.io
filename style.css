@@ -413,7 +413,12 @@ div.background2 {
 
 }
 
-
+div.pixel {
+    width: 1024px;
+    height: 100px;
+    overflow: hidden;
+    
+}
 
 
 
