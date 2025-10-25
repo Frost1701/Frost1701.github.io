@@ -236,12 +236,13 @@ div.fullbleed {
     flex-wrap: wrap;
     align-items: flex-end;
     width: 100vw;
-    height: 98vh;
+    height: 100vh;
+    max-height: 800px;
+
     background-image: url("HeroTest.jpg");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
-
     position: relative;
 }
 
@@ -266,6 +267,15 @@ div.introbody {
     padding: 24px;
     text-align: center;
 }
+
+div.banner {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+
 
 /* NavBar (not using anymore) */
 div.bar {
@@ -338,11 +348,10 @@ div.intro {
     font-weight: 400;
     font-size: 40px;
     font-style: italic;
-    font-variant: small-caps;
     color: rgb(76, 97, 92);
 
     text-align: center;
-    width: 600px;
+    width: 1000px;
     line-height: 40x;
 
     margin-left: auto;
@@ -353,31 +362,30 @@ div.intro {
 
 /* ChatBubbles */
 div.image1 {
-    width: 350;
-    height: 350px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -80px;
-    margin-top: -80px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 div.chatbubble {
-    border-radius: 32px;
+    border-radius: 28px;
     width: 480px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     margin-left: auto;
     margin: 80px;
 }
 
 /* changed from paragraph to div */
-div.body { 
+div.bodybubble { 
 font-family: "argent-pixel-cf", sans-serif;
 font-weight: 500;
 font-style: normal;
 font-size: 20px;
+line-height: 24px;
 color: rgb(63, 81, 59);
 padding: 12px;
 }
@@ -406,6 +414,47 @@ div.marginleftauto {
     margin-left: auto;
 }
 
+div.margingiftop {
+    margin-top: 280px;
+    margin-bottom: 80px;
+}
+
+
+div.flexgifwrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.gifbox {
+    width: 200px;
+    height: 200px;
+
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(76, 97, 92);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.gifborder {
+    border-left: solid 4px rgb(174, 177, 157);
+    border-top: solid 4px rgb(174, 177, 157);
+    outline: solid 4px rgb(63, 81, 59);
+}
+
+
+
+
+
+/* SECTION 5 - COLOPHON */
 div.background2 {
     width: 100vw;
     height: 100vh;
@@ -413,19 +462,14 @@ div.background2 {
 
 }
 
-div.pixel {
-    width: 1024px;
-    height: 100px;
-    overflow: hidden;
-    
+
+
+
+
+div.tile {
+    margin: 12px;
+    content: ;
 }
-
-
-
-
-
-
-
 
 
 
