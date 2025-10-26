@@ -236,7 +236,7 @@ div.fullbleed {
     align-items: flex-end;
     width: 100vw;
     height: 100vh;
-    max-height: 800px;
+    
 
     background-image: url("HeroTest.jpg");
     background-position: left top;
