@@ -223,7 +223,7 @@ font-style: italic;
 div.title1 {
     font-family: "argent-pixel-cf", sans-serif;
     font-weight: 400;
-    font-size: 20vw;
+    font-size: 300px;
     line-height: 200px;
     font-style: normal;
     color: rgb(237, 241, 214);
@@ -235,8 +235,7 @@ div.fullbleed {
     flex-wrap: wrap;
     align-items: flex-end;
     width: 100vw;
-    height: 100vh;
-    
+    height: 98vh;
 
     background-image: url("HeroTest.jpg");
     background-position: left top;
@@ -257,17 +256,26 @@ div.screen {
 
 div.centercontent {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+div.glyph {
+    background-image: url("Natural.AI_Logo.png");
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+div.margtop {
+    margin-top: 80px;
+}
 
-
-
-/* SECTION 2 */
-/* intro text */
+div.margbot {
+    margin-bottom: 80px;
+}
 
 div.introbody {
     font-family: "degular-mono", sans-serif;
@@ -285,6 +293,15 @@ div.banner {
     margin-bottom: 32px;
 }
 
+div.boxx {
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(96, 153, 102);
+    margin: 32px;
+}
+
+
+
 /* NavBar (not using anymore) */
 div.bar {
     width: 100%;
@@ -299,11 +316,31 @@ div.sticky {
 
 
 
+/* SECTION 2 */
+/* rejected layout
+div.bodybox {
+    font-family: "degular-mono", sans-serif;
+    font-style: normal;
+    font-size: 2.5vh;
+    color: rgb(96, 153, 102);
+    padding: 24px;
+    text-align: left;
+    margin-right: 20%;
+}
+
+div.lat {
+    text-align: left;
+} */
+
+
+
+
+
+
 /* SECTION 3 */
 div.elegant {
     background-image: ;
     background-color: rgb(96, 153, 102);
-    
 }
 
 
