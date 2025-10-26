@@ -43,7 +43,6 @@ div.body {
 }
 
 
-
 /* Color Swatch Box for styleguide*/
 div.swatch {
 width: 100px;
@@ -174,7 +173,7 @@ div.border1 {
 
 
 /* SECTION 1 */
-/* ANIMATION */
+    /* ANIMATION */
     /*  
         @keyframes myAnimationTest {
             from {background-color: black;}
@@ -220,7 +219,7 @@ font-size: 4vw;
 font-style: italic;
 }
 
-/* Hero Image */
+    /* Hero Image */
 div.title1 {
     font-family: "argent-pixel-cf", sans-serif;
     font-weight: 400;
@@ -251,6 +250,19 @@ div.flexend {
 }
 /* background position is crop - center center */
 
+div.screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.centercontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 
@@ -273,10 +285,6 @@ div.banner {
     margin-bottom: 32px;
 }
 
-
-
-
-
 /* NavBar (not using anymore) */
 div.bar {
     width: 100%;
@@ -287,17 +295,15 @@ div.sticky {
     top: 0;
 }
 
+
+
+
+
 /* SECTION 3 */
-div.screen {
-    width: 100vw;
-    height: 100vh;
-}
-
-div.centercontent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+div.elegant {
+    background-image: ;
+    background-color: rgb(96, 153, 102);
+    
 }
 
 
@@ -305,44 +311,9 @@ div.centercontent {
 
 
 
-/* SECTION 5 */
-div.borderpixel {
-    border-left: solid 4px rgb(174, 177, 157);
-    border-top: solid 4px rgb(174, 177, 157);
-
-    outline: solid 4px rgb(63, 81, 59);
-
-    padding-left: 20px;
-    padding-bottom: 4px;
-
-    margin: 32px;
-}
-
-div.bordernav {
-    border-left: solid 4px rgb(84, 135, 90);
-    border-top: solid 4px rgb(84, 135, 90);
-    outline: solid 4px rgb(63, 81, 59);
-    margin: 4px;
-}
-
-div.box {
-    margin-left: 24%;
-    margin-right: 24%;
-    padding: 4%;
-    background-color: rgb(237, 241, 214);
-}
-
-div.background1 {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(157, 192, 0138);
-}
 
 
-
-
-
-/* Section 6 */
+/* Section 4 */
 div.intro {
     font-family: "argent-pixel-cf", sans-serif;
     font-weight: 400;
@@ -450,7 +421,37 @@ div.gifborder {
     outline: solid 4px rgb(63, 81, 59);
 }
 
+div.borderpixel {
+    border-left: solid 4px rgb(174, 177, 157);
+    border-top: solid 4px rgb(174, 177, 157);
 
+    outline: solid 4px rgb(63, 81, 59);
+
+    padding-left: 20px;
+    padding-bottom: 4px;
+
+    margin: 32px;
+}
+
+div.bordernav {
+    border-left: solid 4px rgb(84, 135, 90);
+    border-top: solid 4px rgb(84, 135, 90);
+    outline: solid 4px rgb(63, 81, 59);
+    margin: 4px;
+}
+
+div.box {
+    margin-left: 24%;
+    margin-right: 24%;
+    padding: 4%;
+    background-color: rgb(237, 241, 214);
+}
+
+div.background1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(157, 192, 0138);
+}
 
 
 
@@ -459,23 +460,26 @@ div.background2 {
     width: 100vw;
     height: 100vh;
     background-color: rgb(63, 81, 59);
-
 }
 
 
 
 
 
-div.tile {
-    margin: 12px;
-    content: ;
-}
 
 
 
 
 
-@media screen and (max-width: 600px) {
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 600px) {
     body {
         
     }
@@ -504,4 +508,4 @@ div.tile {
         color: rgb(215, 219, 192);
     }
     
-}
+} */
