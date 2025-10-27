@@ -237,7 +237,7 @@ div.fullbleed {
     width: 100vw;
     height: 98vh;
 
-    background-image: url("HeroTest.jpg");
+    background-image: url("CoverHero.png");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
