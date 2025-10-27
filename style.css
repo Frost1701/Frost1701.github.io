@@ -261,8 +261,15 @@ div.centercontent {
     flex-direction: column;
 }
 
+div.glyphimg1 {
+    background-image: url("Glyph-01.png");
+}
+
+div.glyphimg4 {
+    background-image: url("Glyph-04.png");
+}
+
 div.glyph {
-    background-image: url("Natural.AI_Logo.png");
     width: 150px;
     height: 150px;
     background-size: cover;
@@ -293,11 +300,14 @@ div.banner {
     margin-bottom: 32px;
 }
 
-div.boxx {
+div.glyphsection {
+    background-image: url(GlyphSection2.png);
     width: 1200px;
     height: 400px;
-    background-color: rgb(96, 153, 102);
-    margin: 32px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
