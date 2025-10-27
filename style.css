@@ -553,21 +553,70 @@ div.background1 {
 /* SECTION 5 - COLOPHON */
 div.background2 {
     width: 100vw;
-    height: 100vh;
     background-color: rgb(63, 81, 59);
+    position: relative;
+}
+
+div.colophon {
+    font-family: "degular-mono", sans-serif;
+    font-style: normal;
+    font-size: 2.5vh;
+    color: rgb(237, 241, 214);
+    padding: 80px;
+    text-align: left;
+
+    width: 400px;
+
+    margin-right: 80px;
+}
+
+span.indent {
+    text-indent: 32px;
+}
+
+span.smallcaps {
+    font-variant: small-caps;
+    font-size: 3vh;
+    font-weight: 10px;
+}
+
+span.changefont {
+    font-family: "argent-pixel-cf", sans-serif;
+}
+
+span.green {
+    color: rgb(96, 153, 102);
 }
 
 
+@keyframes myAnimationgoodbye {
+    0% {text-color: rgb(63, 81, 59);}
+    50% {color: rgb(237, 241, 214)}
+    100% {text-color: rgb(63, 81, 59);}
+}
 
+div.animationgoodybe {
+    animation-name: myAnimationLoad;
+    animation-duration: 2s;
 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
 
+div.goodbyepos {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
 
+}
 
-
-
-
-
-
+div.titlegoodbye {
+font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-size: 4vw;
+font-style: italic;
+}
 
 
 
