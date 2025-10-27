@@ -324,6 +324,11 @@ div.sticky {
 
 
 
+
+
+
+
+
 /* SECTION 2 */
 /* rejected layout
 div.bodybox {
@@ -345,11 +350,56 @@ div.lat {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* SECTION 3 */
-div.elegant {
-    background-image: ;
-    background-color: rgb(96, 153, 102);
+div.flowerbg {
+    display: flex;
+    align-items: center;
+
+    background-image: url(FlowerBG.png);
+    background-repeat: no-repeat;
+    background-size: stretch;
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
 }
+
+div.flowertext {
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 200px;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(76, 97, 92);
+    margin-top: 80px;
+}
+
+div.flowerbody {
+    font-family: "degular-mono", sans-serif;
+    font-style: normal;
+    font-size: 2.5vh;
+    color: rgb(96, 153, 102);
+    padding: 32px;
+    text-align: center;
+}
+
+div.flowerflex {
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 
 
