@@ -11,6 +11,7 @@ h1{
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
+    color: #1e1e1e;
 }
 
 /* Sub-Heading */
@@ -19,10 +20,37 @@ h2{
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
+    color: #1e1e1e;
 }
 
 /* Body */
+div.body{
+    font-family: darkmode-off, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e1e1e;
+    margin: 16px;
+}
 
 /* Caption */
+div.caption{
+    font-family: darkmode-off, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    color: #1e1e1e;
+    margin: 16px;
+    margin-left: 32px;
+}
 
 /* Quote */
+div.quote{
+    font-family: p22-typewriter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #b21c1f;
+    margin: 16px;
+    margin-left: 48px;
+}
