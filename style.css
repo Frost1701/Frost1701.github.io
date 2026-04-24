@@ -5,7 +5,7 @@ body{
 }
 
 
-/* Heading */
+/* Headings */
 div.heading{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
@@ -15,17 +15,35 @@ div.heading{
     margin: 16px;
 }
 
-/* Sub-Heading */
+div.heading2{
+    font-family: darkmode-off, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    color: #e6e6e6;
+    margin: 16px;
+}
+
+/* Sub-Headings */
 div.subhead{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
-    color: #1e1e1e;
+    color: #e6e6e6;
     margin: 16px;
 }
 
-/* Body */
+div.subhead2{
+    font-family: darkmode-off, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #e6e6e6;
+    margin: 16px;
+}
+
+/* Bodys */
 div.body{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
@@ -35,13 +53,32 @@ div.body{
     margin: 16px;
 }
 
-/* Caption */
+div.body2{
+    font-family: darkmode-off, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #e6e6e6;
+    margin: 16px;
+}
+
+/* Captions */
 div.caption{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
     color: #1e1e1e;
+    margin: 16px;
+    margin-left: 32px;
+}
+
+div.caption2{
+    font-family: darkmode-off, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    color: #e6e6e6;
     margin: 16px;
     margin-left: 32px;
 }
@@ -63,5 +100,9 @@ div.quote{
 
 
 div.box{
-
+    background-color: #1e1e1e;
+    border: #eebf1c 10px solid;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
