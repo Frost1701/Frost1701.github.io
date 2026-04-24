@@ -6,21 +6,23 @@ body{
 
 
 /* Heading */
-h1{
+div.heading{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
     color: #1e1e1e;
+    margin: 16px;
 }
 
 /* Sub-Heading */
-h2{
+div.subhead{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
     color: #1e1e1e;
+    margin: 16px;
 }
 
 /* Body */
@@ -53,4 +55,13 @@ div.quote{
     color: #b21c1f;
     margin: 16px;
     margin-left: 48px;
+}
+
+
+
+
+
+
+div.box{
+
 }
