@@ -1,6 +1,6 @@
 body{
     background-color: #e6e6e6;
-
+    margin: 0;
     
 }
 
@@ -101,8 +101,7 @@ div.quote{
 
 div.box{
     background-color: #1e1e1e;
-    border: #eebf1c 10px solid;
-    width: 800px;
+    width: 100%;
     margin-top: 100px;
-    margin-left: auto;
+    padding: 32px;
 }
