@@ -1,5 +1,4 @@
 body{
-    background-color: #e6e6e6;
     margin: 0;
     padding: 0;
 }
@@ -10,18 +9,16 @@ div.heading{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 93px;
     color: #1e1e1e;
-    margin: 16px;
 }
 
 div.heading2{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 93px;
     color: #e6e6e6;
-    margin: 16px;
 }
 
 /* Sub-Headings */
@@ -30,8 +27,7 @@ div.subhead{
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
-    color: #e6e6e6;
-    margin: 16px;
+    color: #1e1e1e;
 }
 
 div.subhead2{
@@ -40,7 +36,10 @@ div.subhead2{
     font-weight: 700;
     font-size: 21px;
     color: #e6e6e6;
-    margin: 16px;
+}
+
+div.subheadpadleft{
+    padding-left: 16px;
 }
 
 /* Bodys */
@@ -50,7 +49,6 @@ div.body{
     font-weight: 400;
     font-size: 16px;
     color: #1e1e1e;
-    margin: 16px;
 }
 
 div.body2{
@@ -59,7 +57,10 @@ div.body2{
     font-weight: 400;
     font-size: 16px;
     color: #e6e6e6;
-    margin: 16px;
+}
+
+div.bodypad{
+    padding: 16px;
 }
 
 /* Captions */
@@ -69,8 +70,6 @@ div.caption{
     font-weight: 100;
     font-size: 16px;
     color: #1e1e1e;
-    margin: 16px;
-    margin-left: 32px;
 }
 
 div.caption2{
@@ -79,8 +78,6 @@ div.caption2{
     font-weight: 100;
     font-size: 16px;
     color: #e6e6e6;
-    margin: 16px;
-    margin-left: 32px;
 }
 
 /* Quote */
@@ -90,18 +87,92 @@ div.quote{
     font-weight: 400;
     font-size: 16px;
     color: #b21c1f;
-    margin: 16px;
-    margin-left: 48px;
+    line-height: 1.4;
 }
 
+div.indent{
+    margin-left: 32px;
+}
 
+/* Colors */
+div.bg1{
+    background-color: #1e1e1e;
+}
 
+div.bg2{
+    background-color: #e6e6e6;
+}
 
+div.bgtest{
+    background-color: lightgreen;
+}
 
+/* Columns */
+div.width10{
+    width: 10%;
+    background-color: aqua;
+}
+
+div.width20{
+    width: 20%;
+    background-color: yellow;
+}
+
+div.width30{
+    width: 30%;
+    background-color: lightpink;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width60{
+    width: 60%;
+}
+
+div.width70{
+    width: 70%;
+}
 
 div.box{
     background-color: #1e1e1e;
     width: 100%;
     margin-top: 100px;
     padding: 32px;
+}
+
+div.flexbox{
+    display: flex;
+}
+
+div.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.break{
+    width: 100%;
+    height: 50px;
+}
+
+div.halfbreak{
+    width: 100%;
+    height: 25px;
+}
+
+div.punchdots{
+    width: 10%;
+    height: 100px;
+    background-color: black;
+}
+
+div.blank{
+    width: 600px;
+    height: 400px;
+    background-color: lightseagreen;
+}
+
+div.textbox{
+    width: 800px;
 }
