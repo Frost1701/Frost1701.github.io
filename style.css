@@ -94,6 +94,10 @@ div.indent{
     margin-left: 32px;
 }
 
+div.indent2{
+    margin-left: 64px;
+}
+
 /* Colors */
 div.bg1{
     background-color: #1e1e1e;
@@ -121,6 +125,10 @@ div.width20{
 div.width30{
     width: 30%;
     background-color: lightpink;
+}
+
+div.width40{
+    width: 40%;
 }
 
 div.width50{
@@ -176,3 +184,5 @@ div.blank{
 div.textbox{
     width: 800px;
 }
+
+
