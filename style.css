@@ -115,6 +115,14 @@ div.bg2{
     background-color: #e6e6e6;
 }
 
+div.bg3{
+    background-color: #b21c1f;
+}
+
+div.bgtest{
+    background-color: lightgreen;
+}
+
 /* dark grey */
 div.color1{
     color: #1e1e1e;
@@ -136,9 +144,6 @@ div.color5{
     color: #e6e6e6;
 }
 
-div.bgtest{
-    background-color: lightgreen;
-}
 
 /* Columns */
 div.width10{
@@ -187,7 +192,6 @@ div.width90{
 
 div.width100{
     width: 100%;
-    background-color: #b21c1f;
 }
 
 div.box{
@@ -197,6 +201,7 @@ div.box{
     padding: 32px;
 }
 
+/* Flexboxes */
 div.flexbox{
     display: flex;
 }
@@ -210,6 +215,13 @@ div.flexcol{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+div.rowreverse{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
 }
 
 div.colpad{
@@ -256,7 +268,6 @@ div.left{
 
 div.right{
     margin-left: auto;
-    background-color: paleturquoise;
 }
 
 div.mission{
@@ -266,4 +277,17 @@ div.mission{
 
 div.htest{
     height: 100px;
+}
+
+div.imgleftmarg{
+    margin-left: 7%;
+}
+
+div.colquote{
+    height: 40%;
+}
+
+div.topline{
+    border-top: 1px solid #1e1e1e;
+    border-radius: 1px;
 }
