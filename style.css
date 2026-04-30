@@ -143,7 +143,6 @@ div.bgtest{
 /* Columns */
 div.width10{
     width: 10%;
-    background-color: aqua;
 }
 
 div.width15{
@@ -152,7 +151,6 @@ div.width15{
 
 div.width20{
     width: 20%;
-    background-color: yellow;
 }
 
 div.width30{
@@ -165,7 +163,6 @@ div.width35{
 
 div.width40{
     width: 40%;
-    background-color: palevioletred;
 }
 
 div.width50{
