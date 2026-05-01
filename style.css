@@ -170,12 +170,12 @@ div.width35{
     width: 35%;
 }
 
-div.width38{
-    width: 38%;
-}
-
 div.width40{
     width: 40%;
+}
+
+div.width44{
+    width: 44%;
 }
 
 div.width50{
@@ -184,6 +184,10 @@ div.width50{
 
 div.width60{
     width: 60%;
+}
+
+div.width68{
+    width: 68%;
 }
 
 div.width70{
@@ -227,6 +231,10 @@ div.flexcol{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+div.flexend{
+    align-content: flex-end;
 }
 
 div.rowreverse{
