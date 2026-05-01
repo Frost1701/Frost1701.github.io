@@ -239,14 +239,19 @@ div.flexend{
 
 div.rowreverse{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
-    /* align-items: flex-end; */
+
 }
 
 div.colpad{
     padding: 12px;
     text-align: left justify;
+}
+
+div.rightalign{
+    text-align: end;
 }
 
 div.break{
@@ -305,7 +310,7 @@ div.imgleftmarg{
 }
 
 div.colquote{
-    height: 40%;
+    margin-top: 40em;
 }
 
 div.topline{
@@ -315,6 +320,35 @@ div.topline{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Week8 - Inclass tests */
 div.containerwk8{
     display: flex;
     flex-wrap: wrap;
@@ -327,23 +361,7 @@ div.itemwk8{
     background-color: lightpink;
 }
 
-div.testwrap{
-
-}
-
-div.testbox1{
-
-}
-
-div.testbox2{
-
-}
-
 div.testbox3{
     text-align: right;
-
 }
 
-div.image{
-    back
-}
