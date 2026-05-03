@@ -79,6 +79,18 @@ div.bodybold{
     color: #1e1e1e;
 }
 
+div.indent{
+    margin-left: 32px;
+}
+
+div.indent2{
+    margin-left: 64px;
+}
+
+div.indent3{
+    margin-left: 128px;
+}
+
 /* Captions */
 div.caption{
     font-family: darkmode-off, sans-serif;
@@ -96,6 +108,10 @@ div.caption2{
     color: #e6e6e6;
 }
 
+div.allcaps{
+    text-transform: uppercase;
+}
+
 /* Quote */
 div.quote{
     font-family: p22-typewriter, sans-serif;
@@ -111,13 +127,7 @@ div.note{
     color: blue;
 }
 
-div.indent{
-    margin-left: 32px;
-}
 
-div.indent2{
-    margin-left: 64px;
-}
 
 /* Colors */
 div.bg1{
@@ -134,6 +144,10 @@ div.bg3{
 
 div.bgtest{
     background-color: lightgreen;
+}
+
+div.bgtest2{
+    background-color: paleturquoise;
 }
 
 /* dark grey */
@@ -179,6 +193,10 @@ div.width30{
     width: 30%;
 }
 
+div.width33{
+    width: 33.333%;
+}
+
 div.width35{
     width: 35%;
 }
@@ -191,12 +209,24 @@ div.width44{
     width: 44%;
 }
 
+div.width45{
+    width: 45%;
+}
+
 div.width50{
     width: 50%;
 }
 
+div.width55{
+    width: 55%;
+}
+
 div.width60{
     width: 60%;
+}
+
+div.width65{
+    width: 65%;
 }
 
 div.width68{
@@ -213,6 +243,10 @@ div.width75{
 
 div.width80{
     width: 80%;
+}
+
+div.width85{
+    width: 85%;
 }
 
 div.width90{
@@ -257,11 +291,6 @@ div.rowreverse{
     justify-content: space-evenly;
 }
 
-div.colpad{
-    padding: 12px;
-    text-align: left justify;
-}
-
 div.rightalign{
     text-align: end;
 }
@@ -291,7 +320,7 @@ div.textbox{
 }
 
 
-div.test{
+div.punchdotsbg{
     height: 100px;
     background-image: url(punchdots.png);
     background-size: contain;
@@ -351,6 +380,7 @@ div.launch{
 }
 
 div.exo{
+    /* replace with bg img */
     background-color: #eebf1c;
     border-radius: 50%;
     width: 100px;
@@ -368,11 +398,35 @@ div.exomarg2{
     margin-left: 3em;
 }
 
+div.fullbleed{
+    height: 100vh;
+    background-image: url(discovery.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* Tried to do vertical text but used writing mode instead */
+/* div.verttext{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+} */
 
 
+div.textv{
+    writing-mode: sideways-lr;
+}
 
-
-
+/* in order to apply margin to text had to move writing mode out of fullbleed which puts it at top and not bottom */
+div.discmarg{
+    margin-left: 0.2em;
+    margin-bottom: 0.4em;
+}
 
 
 
