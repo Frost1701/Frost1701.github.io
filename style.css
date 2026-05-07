@@ -9,7 +9,7 @@ div.heading{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 93px;
+    font-size: 96px;
     color: #1e1e1e;
 }
 
@@ -17,7 +17,7 @@ div.heading2{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 93px;
+    font-size: 96px;
     color: #e6e6e6;
 }
 
@@ -25,7 +25,7 @@ div.heading3{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 93px;
+    font-size: 96px;
     color: #ffffff;
 }
 
@@ -46,8 +46,8 @@ div.subhead2{
     color: #e6e6e6;
 }
 
-div.subheadpadleft{
-    padding-left: 16px;
+div.subheadmargleft{
+    margin-left: 8px;
 }
 
 /* Bodys */
@@ -68,7 +68,10 @@ div.body2{
 }
 
 div.bodypad{
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 8px;
 }
 
 div.bodybold{
@@ -77,6 +80,11 @@ div.bodybold{
     font-weight: 400;
     font-size: 16px;
     color: #1e1e1e;
+}
+
+div.justifytext{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 div.indent{
@@ -96,7 +104,7 @@ div.caption{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 12px;
     color: #1e1e1e;
 }
 
@@ -104,12 +112,16 @@ div.caption2{
     font-family: darkmode-off, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 12px;
     color: #e6e6e6;
 }
 
 div.allcaps{
     text-transform: uppercase;
+}
+
+div.captionmargright{
+    margin-right: 16px;
 }
 
 /* Quote */
@@ -136,7 +148,10 @@ div.note{
     color: blue;
 }
 
-
+div.note2{
+    font-style: italic;
+    color: rgb(0, 255, 0);
+}
 
 /* Colors */
 div.bg1{
@@ -362,47 +377,32 @@ div.halfbreak{
     }
 
 
-    div.diamond {
-      width: 0;
-      height: 0;
-      border: 50px solid transparent;
-      border-bottom-color: #e6e6e6;
-      position: relative;
-      top: -50px;
-    }
-    div.diamond:after {
-      content: '';
-      position: absolute;
-      left: -50px;
-      top: 50px;
-      width: 0;
-      height: 0;
-      border: 50px solid transparent;
-      border-top-color: #e6e6e6;
-    }
-
-div.punchdots{
-    width: 10%;
+div.diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #e6e6e6;
+    position: relative;
+    top: -50px;
+}
+div.diamond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: #e6e6e6;
 }
 
-div.blank{
-    width: 600px;
-    height: 400px;
-    background-color: lightseagreen;
-}
-
-div.textbox{
-    width: 800px;
+div.coverimg{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
-div.punchdotsbg{
-    height: 100px;
-    background-image: url(punchdots.png);
-    background-size: contain;
-    background-position: center left;
-    background-repeat: no-repeat;
-}
+
 
 div.left{
     margin-right: auto;
@@ -435,8 +435,14 @@ div.colquote{
     margin-top: 40em;
 }
 
+
+/* Lines */
 div.topline{
     border-top: 1px solid #1e1e1e;
+}
+
+div.topline2{
+    border-top: 1px solid #e6e6e6;
 }
 
 div.toplinedash{
@@ -447,14 +453,25 @@ div.bottomline{
     border-bottom: 1px solid #1e1e1e;
 }
 
+div.bottomline2{
+    border-bottom: 1px solid #e6e6e6;
+}
+
 div.leftline{
     border-left: 1px solid #1e1e1e;
 }
 
+div.leftline2{
+    border-left: 1px solid #e6e6e6;
+}
 
+div.rightline{
+    border-right: 1px solid #1e1e1e;
+}
 
-
-
+div.rightline2{
+    border-right: 1px solid #e6e6e6;
+}
 
 /* Tried to create custom border to change dash length but im using borders as lines and not as decorative borders
 https://kovart.github.io/dashed-border-generator/ */
@@ -497,7 +514,7 @@ div.fullbleed{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    height: 100vh;
 }
 
 /* Tried to do vertical text but used writing mode instead */
@@ -517,7 +534,7 @@ div.textv{
 
 /* in order to apply margin to text had to move writing mode out of fullbleed which puts it at top and not bottom */
 div.discmarg{
-    margin-left: 0.2em;
+    margin-left: 0.8em;
     margin-bottom: 0.4em;
 }
 
@@ -555,7 +572,7 @@ div.aboutimg{
 
 
 
-/* Week8 - Inclass tests */
+/* Unused code */
 div.containerwk8{
     display: flex;
     flex-wrap: wrap;
@@ -572,3 +589,24 @@ div.testbox3{
     text-align: right;
 }
 
+div.punchdots{
+    width: 10%;
+}
+
+div.blank{
+    width: 600px;
+    height: 400px;
+    background-color: lightseagreen;
+}
+
+div.textbox{
+    width: 800px;
+}
+
+div.punchdotsbg{
+    height: 100px;
+    background-image: url(punchdots.png);
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
