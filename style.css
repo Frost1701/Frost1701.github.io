@@ -166,6 +166,10 @@ div.bg3{
     background-color: #b21c1f;
 }
 
+div.bg4{
+    background-color: #ffffff;
+}
+
 div.bgtest{
     background-color: lightgreen;
 }
@@ -610,7 +614,10 @@ div.worldmodel{
     background-repeat: no-repeat;
 }
 
-
+div.modelborder{
+    border: 1px solid #1e1e1e;
+    box-shadow: 5px 5px 10px #1e1e1e;
+}
 
 
 
