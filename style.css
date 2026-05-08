@@ -397,7 +397,7 @@ div.diamond:after {
     border-top-color: #e6e6e6;
 }
 
-/* img */
+/* Image */
 img {
     max-width: 100%;
     height: auto;
@@ -407,6 +407,21 @@ div.coverimg{
     margin-left: 40px;
     margin-right: 40px;
 }
+
+div.worldimg{
+    width: 56%;
+    background-color: #e6e6e6;
+}
+
+/* Video */
+/* too big for github, make timelapse */
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
 
 
 
@@ -558,7 +573,7 @@ div.testmarg{
 }
 
 div.aboutbox{
-    border: 1px dotted #1e1e1e;
+    border: 1px dotted #e6e6e6;
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 1em;
