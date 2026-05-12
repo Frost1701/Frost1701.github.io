@@ -143,6 +143,23 @@ div.quotehead{
     line-height: 1.4;
 }
 
+div.meteor{
+    font-family: p22-typewriter, sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 12px;
+    color: #e6e6e6;
+}
+
+/* using pre for tabs - adds default margin. need to reset */
+pre{
+    margin: 0;
+}
+
+div.meteorcontainer{
+    background-color: #1e1e1e;
+}
+
 div.note{
     font-style: italic;
     color: blue;
@@ -596,6 +613,9 @@ div.aboutimg{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+
 
 div.modelkeyoverflow{
     height: 500px;
