@@ -303,6 +303,10 @@ div.width90{
     width: 90%;
 }
 
+div.width95{
+    width: 95%;
+}
+
 div.width100{
     width: 100%;
 }
@@ -432,7 +436,6 @@ div.coverimg{
 
 div.worldimg{
     width: 56%;
-    background-color: #e6e6e6;
 }
 
 /* Video */
@@ -539,12 +542,70 @@ div.launch{
     
 }
 
-div.exo{
-    /* replace with bg img */
-    background-color: #eebf1c;
+div.exo1{
+    background-image: url(mission-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+
+div.exo2{
+    background-image: url(mission-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+
+div.exo3{
+    background-image: url(mission-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #eebf1c;
+}
+
+div.exo4{
+    background-image: url(mission-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+
+div.exo5{
+    background-image: url(mission-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+
+div.exo6{
+    background-image: url(mission-6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #e6e6e6;
 }
 
 div.exomarg{
@@ -629,7 +690,8 @@ div.worldmodel{
     
     overflow: scroll;
 
-    background-image: url(worldmodel2.jpg);
+    background-color: blue;
+    /* background-image: url(worldmodel2.jpg); */
     background-size: 260%;
     background-position: top left 42%;
     background-repeat: no-repeat;
