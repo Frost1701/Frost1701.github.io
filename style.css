@@ -137,6 +137,10 @@ div.captionmargleft{
     margin-left: 16px;
 }
 
+div.captionmargleft2{
+    padding-left: 32px;
+}
+
 /* Quote */
 div.quote{
     font-family: p22-typewriter, sans-serif;
@@ -156,6 +160,11 @@ div.quotehead{
     line-height: 1.4;
 }
 
+div.uthantpad{
+    padding: 16px;
+}
+
+
 /* Meteors */
 div.meteor{
     font-family: p22-typewriter, sans-serif;
@@ -165,6 +174,14 @@ div.meteor{
     color: #e6e6e6;
 }
 
+div.meteor2{
+    font-family: p22-typewriter, sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 12px;
+    color: #1e1e1e;
+}
+
 /* using pre for tabs - adds default margin. need to reset */
 pre{
     margin: 0;
@@ -172,9 +189,6 @@ pre{
     font-family: inherit;
 }
 /* can add changes to white space or remove inherit font for full reset */
-
-
-
 
 div.meteorcontainer{
     background-color: #1e1e1e;
@@ -723,16 +737,16 @@ div.aboutbox{
     padding-right: 1em;
 }
 
-/* dont change for about box */
+/* *dont change* for about box */
 div.aboutleftmarg{
     margin-left: 8px;
 }
 
+/* using for all images to make inline with text, dont want to change name incase i break something and dont notice */
 div.aboutimg{
     width: 100%;
     margin-left: 8px;
 }
-
 
 
 
