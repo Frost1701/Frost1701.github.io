@@ -90,6 +90,15 @@ div.bodymargleft{
     margin-left: 8px;
 }
 
+span.bar1{
+    color: #e6e6e6;
+    background-color: #e6e6e6;
+}
+
+span.bar2{
+    color: #1e1e1e;
+    background-color: #1e1e1e;
+}
 
 div.justifytext{
     text-align: justify;
@@ -399,6 +408,11 @@ div.flexcol{
 
 div.flexend{
     align-content: flex-end;
+}
+
+div.flexright{
+    display: flex;
+    justify-content: flex-end;
 }
 
 div.rowreverse{
