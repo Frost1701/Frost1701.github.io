@@ -788,6 +788,35 @@ div.modelborder{
 }
 
 
+/* Growth */
+/* + javascript */
+div.toggle {
+  cursor: pointer;
+}
+
+div.panel {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
