@@ -799,7 +799,9 @@ div.panel {
   transition: height 0.4s;
 }
 
-
+div.industryimg{
+    width: 50%;
+}
 
 
 
